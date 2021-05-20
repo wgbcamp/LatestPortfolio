@@ -6,12 +6,6 @@ document.onreadystatechange = function(){
     }
 }
 
-// window.addEventListener('resize', adjustButtonFont);
-
-// function adjustButtonFont(){
-//     alert("it worked")
-// }
-
 document.getElementById("warrenButton").addEventListener("click", function(event){
     location.href = "#warren";
     event.preventDefault();
