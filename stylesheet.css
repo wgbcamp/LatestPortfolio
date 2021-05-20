@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+    scrollbar-color: #808080 #444444;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    height: 100%;
+    background-color: #FFFFFF;
+    overflow-x:hidden;
+}
+.maxButtonHeight{
+    max-height: 50px;
+}
+.toTheTop{
+    z-index: 1;
+}
+.nameFont{
+    font-size: 70px;
+    color: white;
+    animation: titleEntrance 1.8s forwards;
+    z-index:-1;
+}
+.buttonFont{
+    font-size: 30px;
+    color: white;
+}
+.description1{
+    font-size: 40px;
+}
+.description2{
+    font-size: 70px;
+}
+.skills{
+    font-size: 36px;
+}
+.professionsButton{
+    background-color: #808080;
+}
+.aboutButton{
+    background-color: #686868;
+}
+.skillsButton{
+    background-color: #565656;
+}
+.contactButton{
+    background-color: #444444;
+}
+.buttonColorChange:hover{
+    background-color:#202020;
+    transition: background-color 0.2s;
+}
+@keyframes titleEntrance{
+    1% {top: 0px; opacity: 0}
+    100% {top: 200px; opacity: 1}
+}
+.backgroundImage{
+    background-image: url(assets/CH210325740.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    z-index: -1;
+    filter: grayscale(1);
+}
+.container-fluid{
+    padding: 0;
+}
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin: 10px 0;
+}
+@media only screen and (max-width: 700px){
+    .buttonFont{
+        font-size: 15px;
+    }
+    .description1{
+        font-size: 20px;
+    }
+    .description2{
+        font-size: 35px;
+    }
+}
+.justStick{
+    position: fixed;
+    top: 0;
+}
+.addAShadow{
+    box-shadow: 10px 5px 5px red; 
+}
