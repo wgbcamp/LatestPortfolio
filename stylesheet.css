@@ -32,7 +32,7 @@ body{
 .description2{
     font-size: 70px;
 }
-.skills{
+.tools{
     font-size: 36px;
 }
 .professionsButton{
@@ -41,7 +41,7 @@ body{
 .aboutButton{
     background-color: #686868;
 }
-.skillsButton{
+.toolsButton{
     background-color: #565656;
 }
 .contactButton{
