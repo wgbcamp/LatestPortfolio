@@ -15,8 +15,8 @@ document.getElementById("aboutButton").addEventListener("click", function(event)
     event.preventDefault();
 });
 
-document.getElementById("skillsButton").addEventListener("click", function(event){
-    location.href = "#skills";
+document.getElementById("toolsButton").addEventListener("click", function(event){
+    location.href = "#tools";
     event.preventDefault();
 });
 
