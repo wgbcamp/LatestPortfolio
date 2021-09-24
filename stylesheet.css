@@ -17,7 +17,7 @@ body{
     z-index: 1;
 }
 .nameFont{
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     animation: titleEntrance 1.8s forwards;
     z-index:-1;
@@ -91,4 +91,27 @@ li{
 }
 .addAShadow{
     box-shadow: 10px 5px 5px red; 
+}
+
+.bgImageContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#resume{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-column: 2;
+    grid-row: 4;
 }
